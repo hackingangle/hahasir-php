@@ -9,6 +9,10 @@
  */
 class Person
 {
+    /**
+     * 年龄
+     * @var integer
+     */
     public $age = 0;
 
     /**
@@ -26,6 +30,7 @@ $hahaSir->growUp();
 $hahaSir->growUp();
 $hahaSir->growUp();
 var_dump($hahaSir);
+
 $zhangsan = new Person();
 $zhangsan->growUp();
 var_dump($zhangsan);
