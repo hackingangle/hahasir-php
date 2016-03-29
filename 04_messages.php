@@ -34,7 +34,7 @@ class Company
      * get all staff members
      * @return array members
      */
-    public function getStaffMembers() 
+    public function getStaffMembers()
     {
         return $this->staff->getMembers();
     }
