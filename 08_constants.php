@@ -5,7 +5,8 @@
 
 define('NUM', 1);
 
-class Bank {
+class Bank
+{
     const TAX = 0.9;
 }
 
